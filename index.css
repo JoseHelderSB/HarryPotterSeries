@@ -1,9 +1,9 @@
-table {
-    text-align: center;
-}
 
 table, th, td {
-    width: 80%;
     border: 1px solid;
 
+  }
+
+  img{
+      max-width: 15%;
   }
