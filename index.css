@@ -1,9 +1,98 @@
+*{
+	box-sizing: border-box;
+ }
 
-table, th, td {
+ body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+header{
+	background-color: #333;
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+
+
+header h1{
+	font-size: 2em;
+	vertical-align:	middle;
+}
+
+h2{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header .container:before{
+
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .5em;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+tbody img {
+    width: 65%;
+    display: inline-block;
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+    border-radius: 2px;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+td {
+    margin-bottom: 90%;
+}
+
+
+/*table, th, td {
     border: 1px solid;
 
   }
 
+  td{
+      text-align: center;
+  }
+
   img{
       max-width: 15%;
-  }
+  }*/
