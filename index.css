@@ -6,6 +6,7 @@
  body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	background: url("bg.png");
 }
 
 header{
@@ -31,9 +32,9 @@ header h1{
 }
 
 h2{
+	background-color: white;
     text-align: center;
-	display:inline-block;
-	vertical-align:	middle;
+	padding-top: 10px;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -49,13 +50,14 @@ section{
 section h2{
 	display: block;
 	padding-bottom: .5em;
+	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: .5em;
 }
 
 table{
 	width: 100%;
-	margin-bottom : .5em;
+	margin-bottom : 30px;
     table-layout: fixed;
 	font-family: 'Montserrat', sans-serif;
 
@@ -106,9 +108,23 @@ td p {
 	background-color: #848484;
 }
 
+
 footer {
 	font-family: 'Montserrat', sans-serif;
 	color:white;
 	background-color: #333;
 	text-align: center;
+	padding-bottom: 15px;
+	background: url(footer.png);
+}
+
+footer img{
+	width: 5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.books:hover img  {
+    width: 70%;
 }
