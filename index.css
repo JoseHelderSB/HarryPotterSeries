@@ -34,6 +34,7 @@ h2{
     text-align: center;
 	display:inline-block;
 	vertical-align:	middle;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -56,6 +57,8 @@ table{
 	width: 100%;
 	margin-bottom : .5em;
     table-layout: fixed;
+	font-family: 'Montserrat', sans-serif;
+
 
 }
 
@@ -79,4 +82,33 @@ th{
 
 td p {
     margin-top: 10px;
+}
+
+ #book1 {
+	background-color: #fbc8da;
+}
+#book2 {
+	background-color: #acb5d2;
+}
+#book3 {
+	background-color: #c8a7cc;
+}
+#book4 {
+	background-color: #e88693;
+}
+#book5 {
+	background-color: #ffda9d;
+}
+#book6 {
+	background-color: #79a5cd;
+}
+#book7 {
+	background-color: #848484;
+}
+
+footer {
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	background-color: #333;
+	text-align: center;
 }
